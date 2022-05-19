@@ -8,8 +8,6 @@ deploy:
     stage: deploy
     script:
         - ls
-        - git remote -v
-        - git config -l
     artifacts:
         paths:
             - src
