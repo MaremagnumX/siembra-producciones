@@ -8,6 +8,7 @@ deploy:
     stage: deploy
     script:
         - ls
+        - git status
     artifacts:
         paths:
             - src
