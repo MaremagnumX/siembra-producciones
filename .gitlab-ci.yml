@@ -1,0 +1,17 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+deploy:
+    stage: deploy
+    script:
+        - ls
+    artifacts:
+        paths:
+            - src
+    tags: 
+        - "react"
+    rules: 
+        - if: '$CI_COMMIT_BRANCH == "master"'
