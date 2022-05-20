@@ -1,4 +1,4 @@
-import logo from './siembra_logo.png';
+import logo from './assets/siembra_logo.png';
 import './App.css';
 
 function App() {
