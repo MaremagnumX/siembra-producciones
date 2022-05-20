@@ -1,12 +1,12 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBGD0R_olhFVw8WgTMhXOKyDiC7oMiIQOY",
-  authDomain: "siembra-producciones.firebaseapp.com",
-  projectId: "siembra-producciones",
-  storageBucket: "siembra-producciones.appspot.com",
-  messagingSenderId: "109860913160",
-  appId: "1:109860913160:web:a301754d02207e26fe11bd"
+    apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECTID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,
+    appId: process.env.REACT_APP_FIREBASE_APPID
 };
 
 // Initialize Firebase
