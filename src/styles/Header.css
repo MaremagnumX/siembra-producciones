@@ -33,6 +33,8 @@ a:focus {
     width: 130px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     float: left;
 }
 
@@ -42,7 +44,7 @@ a:focus {
     float: left;
     margin-top: 0;
     margin-bottom: 0;
-    height: 130px;
+    height: 170px;
     width: auto;
     color: white;
     align-items: center;
@@ -76,5 +78,5 @@ a:focus {
     float: right;
     align-items: center;
     display: flex;
-    height: 130px;
+    height: 170px;
 }

@@ -8,9 +8,10 @@ function Header() {
                 <div className="navbar-logotype">
                     <a className="logotype-link" href="">
                         <img
+                            src='../siembra_logo.png'
                             className="logo-header"
                             alt="Logo siembra producciones"
-                            src="../siembra_logo.png" />
+                            />
                     </a>
                     <div className="title-header-container">
                         <h2 className="title-header">Siembra producciones,<br />colectivo audiovisual.</h2>
