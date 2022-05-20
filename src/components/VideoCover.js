@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 function VideoCover() {
       return(
-            <div className="video-container">
+            <div className="video-cover-container">
                   <ReactPlayer
                         
                         url={require('../assets/portada.mp4')}

@@ -33,12 +33,13 @@ a:focus {
     width: 130px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     float: left;
 }
 
 .title-header {
+    font-size: 22px;
     background-color: black;
     display: flex;
     float: left;
