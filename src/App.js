@@ -9,6 +9,7 @@ function App() {
 			<Header />
 			<VideoCover />
 			<Video/>
+			<Video/>
 		</div>
 	);
 }
