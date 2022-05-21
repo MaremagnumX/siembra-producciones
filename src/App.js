@@ -2,7 +2,8 @@ import './App.css';
 import Header from './components/Header.js';
 import VideoCover from './components/VideoCover.js';
 import Video from './components/Video.js';
-import Title from './components/Title.js'
+import Title from './components/Title.js';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -15,6 +16,9 @@ function App() {
 			<Video />
 			<div className='green-title'>
 				<Title title='Síguenos' color='green' />
+			</div>
+			<div className='footer'>
+				<Footer/>
 			</div>
 		</div>
 	);

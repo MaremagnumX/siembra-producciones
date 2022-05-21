@@ -1,4 +1,4 @@
-.green-title {
+.green-title, .footer {
       display: flex;
       justify-content: center;
 }
