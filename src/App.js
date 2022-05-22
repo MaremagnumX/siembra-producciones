@@ -7,6 +7,7 @@ import About from './pages/About.js';
 import Workshop from './pages/Workshop.js';
 import Contact from './pages/Contact.js';
 import Portfolio from './pages/Portfolio.js';
+import NotFound from './pages/NotFound.js';
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Route path='/about' element={<About/>} />
 				<Route path='/workshop' element={<Workshop/>} />
 				<Route path='/contact' element={<Contact/>} />
+				<Route path='/*' element={<NotFound/>} />
 			</Routes>
 		</BrowserRouter>
 	);
