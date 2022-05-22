@@ -1,5 +1,4 @@
 import React from "react";
-import Image from '../components/Image.js';
 import '../styles/About.css'
 
 function PresentationCard({name}) {
