@@ -23,15 +23,19 @@ function About() {
                               ipsum dolore sint. Nisi nulla proident deserunt ullamco consectetur nostrud non.
                         </p>
                   </div>
-                  <div className="team-container">
-                        <div className="team-content-tittle">
-                              <h1 className="team-tittle">Conoce al equipo</h1>
+                  <div className="team-container-filter">
+                        <div className="filter">
                         </div>
-                        <div className="team-gallery-container">
-                              <PresentationCard/>
-                              <PresentationCard/>
-                              <PresentationCard/>
-                              <PresentationCard/>
+                        <div className="team-container">
+                              <div className="team-content-tittle">
+                                    <h1 className="team-tittle">Conoce al equipo</h1>
+                              </div>
+                              <div className="team-gallery-container">
+                                    <PresentationCard name={'v'} />
+                                    <PresentationCard name={'k'} />
+                                    <PresentationCard name={'n'} />
+                                    <PresentationCard name={'t'} />
+                              </div>
                         </div>
                   </div>
             </div>
