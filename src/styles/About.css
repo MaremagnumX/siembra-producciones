@@ -9,4 +9,43 @@
 .paragraph {
     color: white;
     font-size: 25px;
+    text-align: justify;
+}
+
+.team-container {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../assets/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.team-tittle {
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.team-content-tittle {
+    display: flex;
+}
+
+.info-container {
+    height: 500px;
+    width: 250px;
+    background-color: aqua;
+    margin: 30px auto;
+    padding-top: 10px;
+}
+
+.photo-conatiner {
+    margin: 20px 25px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    display: flex;
 }
