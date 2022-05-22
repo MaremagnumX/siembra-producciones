@@ -27,10 +27,11 @@ function About() {
                         <div className="team-content-tittle">
                               <h1 className="team-tittle">Conoce al equipo</h1>
                         </div>
-                        <div className="info-container">
-                              <div className="photo-conatiner">
-                                    <h1>Hola</h1>
-                              </div>
+                        <div className="team-gallery-container">
+                              <PresentationCard/>
+                              <PresentationCard/>
+                              <PresentationCard/>
+                              <PresentationCard/>
                         </div>
                   </div>
             </div>
