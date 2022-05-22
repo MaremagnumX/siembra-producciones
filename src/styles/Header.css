@@ -81,3 +81,9 @@ a:focus {
     display: flex;
     height: 170px;
 }
+
+.active {
+    color: #CDFEAA;
+    font-weight: bold;
+    transition: 200ms ease-in;
+}

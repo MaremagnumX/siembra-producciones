@@ -1,12 +1,13 @@
 import React from "react";
 import '../styles/Header.css';
+import {NavLink} from 'react-router-dom'
 
 function Header() {
     return (
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="navbar-logotype">
-                    <a className="logotype-link" href="">
+                    <a className="logotype-link" href="/">
                         <img
                             src='../siembra_logo.png'
                             className="logo-header"
@@ -19,11 +20,11 @@ function Header() {
                 </div>
                 <div className="list-container">
                     <ul className="list-navbar">
-                        <li className="list-navbar-item"><a className="item-link" href=""><h2 className="navbar-text-item">Inicio</h2></a></li>
-                        <li className="list-navbar-item"><a className="item-link" href=""><h2 className="navbar-text-item">Portafolio</h2></a></li>
-                        <li className="list-navbar-item"><a className="item-link" href=""><h2 className="navbar-text-item">Sobre nosotros</h2></a></li>
-                        <li className="list-navbar-item"><a className="item-link" href=""><h2 className="navbar-text-item">Talleres</h2></a></li>
-                        <li className="list-navbar-item"><a className="item-link" href=""><h2 className="navbar-text-item">Contacto</h2></a></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/"><h2 className="navbar-text-item">Inicio</h2></NavLink></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/portfolio"><h2 className="navbar-text-item">Portafolio</h2></NavLink></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/about"><h2 className="navbar-text-item">Sobre nosotros</h2></NavLink></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/workshop"><h2 className="navbar-text-item">Talleres</h2></NavLink></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/contact"><h2 className="navbar-text-item">Contacto</h2></NavLink></li>
                     </ul>
                 </div>
             </div>

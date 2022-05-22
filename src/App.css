@@ -1,4 +1,12 @@
-.green-title, .footer {
+.footer {
       display: flex;
       justify-content: center;
 }
+
+.green-title {
+      color: #CDFEAA;
+      font-size: 40px;
+      display: flex;
+      justify-content: center ;
+  
+  }
