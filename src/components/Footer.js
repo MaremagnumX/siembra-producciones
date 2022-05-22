@@ -11,11 +11,11 @@ function Footer() {
             <div className="container">
                   <div className="socials-container">
                         <ul className="socials-list">
-                              <li><a className="socials-list-item" href=""><InstagramIcon sx={{ fontSize: 40 }} />  </a></li>
-                              <li><a className="socials-list-item" href=""><FacebookIcon sx={{ fontSize: 40 }} />  </a></li>
-                              <li><a className="socials-list-item" href=""><TwitterIcon sx={{ fontSize: 40 }} />  </a></li>
-                              <li><a className="socials-list-item" href=""><LinkedInIcon sx={{ fontSize: 40 }} />  </a></li>
-                              <li><a className="socials-list-item" href=""><YouTubeIcon sx={{ fontSize: 40 }} />  </a></li>
+                              <li><a className="socials-list-item" href="/" target="_blank" rel="noopener noreferrer"><InstagramIcon sx={{ fontSize: 40 }} />  </a></li>
+                              <li><a className="socials-list-item" href="/" target="_blank" rel="noopener noreferrer"><FacebookIcon sx={{ fontSize: 40 }} />  </a></li>
+                              <li><a className="socials-list-item" href="/" target="_blank" rel="noopener noreferrer"><TwitterIcon sx={{ fontSize: 40 }} />  </a></li>
+                              <li><a className="socials-list-item" href="/" target="_blank" rel="noopener noreferrer"><LinkedInIcon sx={{ fontSize: 40 }} />  </a></li>
+                              <li><a className="socials-list-item" href="/" target="_blank" rel="noopener noreferrer"><YouTubeIcon sx={{ fontSize: 40 }} />  </a></li>
                         </ul>
                   </div>
                   <div className="container-created-by">
