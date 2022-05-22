@@ -1,0 +1,12 @@
+.paragraph-container {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+}
+
+.paragraph {
+    color: white;
+    font-size: 25px;
+}
