@@ -9,6 +9,7 @@ import Workshop from './pages/Workshop.js';
 import Contact from './pages/Contact.js';
 import Portfolio from './pages/Portfolio.js';
 import NotFound from './pages/NotFound.js';
+import Title from './components/Title.js'
 
 function App() {
 	return (
@@ -22,6 +23,9 @@ function App() {
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/*' element={<NotFound />} />
 			</Routes>
+			<div className='green-title'>
+				<Title title='Síguenos' color='green' />
+			</div>
 			<div className='footer'>
 				<Footer />
 			</div>

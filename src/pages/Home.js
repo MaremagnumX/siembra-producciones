@@ -12,9 +12,6 @@ function Home () {
 			<Video />
 			<Title title='Próximamente' />
 			<Video />
-			<div className='green-title'>
-				<Title title='Síguenos' color='green' />
-			</div>
 		</div>
       )
 }
