@@ -10,8 +10,6 @@ import "../styles/ImageGallery.css";
 
 import { Navigation, FreeMode } from "swiper";
 
-import Video from './Video.js';
-
 function ImageGallery() {
       return (
             <div className="gallery-container">
