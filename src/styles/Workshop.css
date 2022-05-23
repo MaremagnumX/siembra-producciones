@@ -1,0 +1,40 @@
+.workshop-cover {
+    background-image: url("../assets/workshop.png");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    position: relative;
+    display: flex;
+    margin-bottom: 50px
+}
+
+.workshop-filter {
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.workshop-title-container {
+    margin: 0 auto;
+    color: #CDFEAA;
+    font-size: 40px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 70%;
+}
+
+.workshop-title {
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.workshop-container {
+    justify-content: center;
+}

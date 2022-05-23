@@ -1,29 +1,29 @@
-a {
+.item-link {
     text-decoration: none;
     outline: none;
 }
 
-a:link {
+.item-link:link {
     color: white;
     transition: 200ms ease-in;
 }
 
-a:visited {
+.item-link:visited {
     color: white;
     transition: 200ms ease-in;
 }
 
-a:hover {
+.item-link:hover {
     color: #CDFEAA;
     transition: 200ms ease-in;
 }
 
-a:active {
+.item-link:active {
     color: #CDFEAA;
     transition: 200ms ease-in;
 }
 
-a:focus {
+.item-link:focus {
     color: #CDFEAA;
     transition: 200ms ease-in;
 }
@@ -57,6 +57,8 @@ a:focus {
 }
 
 .list-navbar-item {
+    text-decoration: none;
+    outline: none;
     color: white;
     text-decoration: none;
     list-style: none;

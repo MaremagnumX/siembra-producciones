@@ -24,8 +24,34 @@
 }
 
 .socials-list-item {
+    text-decoration: none;
+    outline: none;
     margin-right: 10px;
-    display: flex;
+}
+
+.socials-list-item:link {
+    color: white;
+    transition: 200ms ease-in;
+}
+
+.socials-list-item:visited {
+    color: white;
+    transition: 200ms ease-in;
+}
+
+.socials-list-item:hover {
+    color: #CDFEAA;
+    transition: 200ms ease-in;
+}
+
+.socials-list-item:active {
+    color: white;
+    transition: 200ms ease-in;
+}
+
+.socials-list-item:focus {
+    color: white;
+    transition: 200ms ease-in;
 }
 
 .container-created-by {
