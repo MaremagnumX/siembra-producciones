@@ -20,11 +20,11 @@ function Header() {
                 </div>
                 <div className="list-container">
                     <ul className="list-navbar">
-                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/"><h2 className="navbar-text-item">Inicio</h2></NavLink></li>
-                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/portfolio"><h2 className="navbar-text-item">Portafolio</h2></NavLink></li>
-                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/about"><h2 className="navbar-text-item">Sobre nosotros</h2></NavLink></li>
-                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/workshop"><h2 className="navbar-text-item">Talleres</h2></NavLink></li>
-                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/contact"><h2 className="navbar-text-item">Contacto</h2></NavLink></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/" style={{ textDecoration: 'none' }}><h2 className="navbar-text-item">Inicio</h2></NavLink></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/portfolio" style={{ textDecoration: 'none' }}><h2 className="navbar-text-item">Portafolio</h2></NavLink></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/about" style={{ textDecoration: 'none' }}><h2 className="navbar-text-item">Sobre nosotros</h2></NavLink></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/workshop" style={{ textDecoration: 'none' }}><h2 className="navbar-text-item">Talleres</h2></NavLink></li>
+                        <li className="list-navbar-item"><NavLink className={({isActive}) => (isActive ? "active" : "item-link")} to="/contact" style={{ textDecoration: 'none' }}><h2 className="navbar-text-item">Contacto</h2></NavLink></li>
                     </ul>
                 </div>
             </div>
