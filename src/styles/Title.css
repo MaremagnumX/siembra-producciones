@@ -5,19 +5,26 @@
     color: #A074AC;
 }
 
+.purple-title-big {
+    color: #A074AC;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
 .green-title {
     color: #CDFEAA;
     font-size: 40px;
     display: flex;
-    justify-content: center ;
-
+    justify-content: center;
 }
 
 .green-title-big {
     color: #CDFEAA;
     font-size: 80px;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     margin-bottom: 25px;
 }
 

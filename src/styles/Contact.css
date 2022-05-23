@@ -1,7 +1,7 @@
-.workshop-cover {
-    background-image: url("../assets/workshop.png");
+.contact-cover {
+    background-image: url("../assets/contact.jpeg");
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
@@ -10,7 +10,7 @@
     margin-bottom: 50px
 }
 
-.workshop-filter {
+.contact-filter {
     background-color: black;
     opacity: 70%;
     position: absolute;
@@ -20,7 +20,7 @@
     display: flex;
 }
 
-.workshop-title-container {
+.contact-title-container {
     margin: 0 auto;
     color: #CDFEAA;
     font-size: 40px;
@@ -30,10 +30,6 @@
     width: 70%;
 }
 
-.workshop-title {
+.contact-title {
     margin: 0 auto;
-}
-
-.workshop-container {
-    justify-content: center;
 }
