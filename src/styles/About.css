@@ -31,7 +31,7 @@
 }
 
 .info-container {
-    height: 500px;
+    height: 550px;
     width: 250px;
     margin: 30px 20px;
     padding-top: 10px;
@@ -108,4 +108,8 @@
     position: absolute;
     height: 100%;
     width: 100%;
+}
+
+.charge-description {
+    text-align: center;
 }
