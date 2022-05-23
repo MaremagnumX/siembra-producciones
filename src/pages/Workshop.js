@@ -1,6 +1,8 @@
 import React from "react";
 import '../styles/Workshop.css'
 import Title from '../components/Title.js'
+import WorkshopItem from "../components/WorkshopItem";
+
 
 function Workshop() {
       return (
@@ -12,6 +14,7 @@ function Workshop() {
                               <Title className="workshop-title" title="Próximos talleres" color="green" size="big" />
                         </div>
                   </div>
+                  <WorkshopItem/>
             </div>
       )
 }
